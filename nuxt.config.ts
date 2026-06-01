@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     '@nuxt/image',
     'nuxt-studio'
   ],
+  ssr: true,
 
   devtools: {
     enabled: true
