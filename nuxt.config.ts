@@ -8,17 +8,6 @@ export default defineNuxtConfig({
     "nuxt-studio",
   ],
 
-  studio: {
-    route: "_studio",
-
-    repository: {
-      provider: "github",
-      owner: "meeriemarie",
-      repo: "resistance404",
-      branch: "main",
-    },
-  },
-
   ssr: true,
 
   devtools: {
